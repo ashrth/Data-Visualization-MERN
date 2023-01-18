@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+*{
+  font-family: 'Lora', serif;
+}
+.bar-chart{
+    width:80%;
+    display: flex; 
+    margin:2rem;
+    box-sizing: border-box;
+    background-color: rgb(253, 253, 253);
+  box-shadow: 1px 1px 8px 1px;
+  
+  
+}
+#startdate{
+  height:3%;
+}
+#enddate{
+  height:3%;
+}
+.inputboxes{
+  display:inline-table;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.line-chart{
+    width:80%;
+    display: flex; 
+    margin:2rem;
+    box-sizing: border-box;
+    background-color: rgb(253, 253, 253);
+  box-shadow: 1px 1px 8px 1px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.doughnut-chart{
+    width:80%;
+    display: flex; 
+    margin:2rem;
+    box-sizing: border-box;
+    background-color: rgb(253, 253, 253);
+  box-shadow: 1px 1px 8px 1px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.pie-chart{
+    width:80%;
+    display: flex; 
+    margin:2rem;
+    box-sizing: border-box;
+    background-color: rgb(253, 253, 253);
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    height: fit-content;
+
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
